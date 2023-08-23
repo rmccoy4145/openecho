@@ -1,0 +1,15 @@
+{
+  "name": "openecho",
+  "version": "1.0.0",
+  "description": "ingest a openapi spec file in json format then creates a mock webserver for the specification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Mccoy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
